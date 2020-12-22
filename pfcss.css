@@ -1,7 +1,8 @@
 /*added background image to the body*/
 body{
-    background-image: url(./images/arab_tile.png);
+    background-image: url(../responsive-portfolio/images/christmas-dark.png);
 }
+/*added color to the icons*/
 #footer .fa
 {
     color: white;
