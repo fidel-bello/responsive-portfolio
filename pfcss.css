@@ -2,3 +2,7 @@
 body{
     background-image: url(./images/arab_tile.png);
 }
+#footer .fa
+{
+    color: white;
+}
