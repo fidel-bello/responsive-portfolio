@@ -13,51 +13,57 @@
 </head>
 <body>
   <!--added new navbar and deleted older code, changed expand-md-->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <header>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark Responsive">
     <!--added Fidel Bello to the navbar tag-->
     <a class="navbar-brand" href="./index.html">Fidel Bello</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <div class="collapse navbar-collapse Responsive" id="collapsibleNavbar">
       <!--put ml auto to put the other links to the right of the page-->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="./index.html">About Me!</a>
+          <a class="nav-link" href="./index.html">About Me</a>
         </li>
         <li class="nav-item">
           <!---made portfolio link available-->
           <a class="nav-link" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="../responsive-portfolio/contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
+  </header>
   <!--About Me-->
-  <section id="about">
-    <div class="container my-5 bg-dark">
+  <main>
+  <section>
+    <div class="container my-5 bg-dark Responsive">
       <div class="row">
         <div class="col">
           <div id="aboutData">
             <div class="card bg-light">
+              <article>
               <div class="card-title my-5">
                 <div class="media">
                   <div class="row single-post mt-5 no-gutters">
                     <div class="col-md-6">
-                      <h3 class="display-4 ml-5">About Me!</h3>
-                        <div class="image-wrapper float-left ml-5 pr-3">
+                      <h3 class="display-4 ml-5">About Me</h3>
+                        <div class="image-wrapper float-left ml-5 pr-3 d-none d-sm-block">
                             <img src="../responsive-portfolio/images/49793731_2147509705313238_3103613174193061888_n.jpg" alt="me" width="250" height="250" class="img-fluid rounded-top">
                         </div>
                         <div class="single-post-content-wrapper p-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                            My name is Fidel Bello. I am a student at Miami Coding Bootcamp. I hope to one day turn this hobby into a profession. I just started coding since I registered into the bootcamp but I always loved to do anything that had to do with computer design and technology, from messing around with blender and photoshop, to now coding. 
                             <br><br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                            Since I was young I had a passion for technology but growing up in a small, rural area in Ms, i had little to no resources at all for learning. But now that ! live in South Florida, I will take advantage of this bootcamp and learn as much as possible! 
                         </div>
+                    </div>
                     </div>
                   </div>
                 </div>
+              </article>
               </div>
             </div>
           </div>
@@ -65,9 +71,10 @@
       </div>
     </div>
   </section>
+  </main>
   <!--linked in social media links-->
-  <footer id="footer">
-  <div class="footer ml-auto bg-dark">
+  <footer id="sticky-footer">
+  <div class="py-4 footer ml-auto bg-dark Responsive">
     <a href="https://www.facebook.com/fidel.bello.5/"><i class="fa fa-facebook fa-2x mx-5"></i></a>
     <a href="https://www.instagram.com/fidel.bello23/"><i class="fa fa-instagram fa-2x mx-5"></i></a>
     <a href="https://github.com/fidel-bello"><i class="fa fa-github fa-2x mx-5"></i></a>

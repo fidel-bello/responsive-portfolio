@@ -2,10 +2,7 @@
 body{
     background-image: url(../responsive-portfolio/images/christmas-dark.png);
 }
-/*added color to the icons*/
-#footer .fa
-{
-    color: white;
+
 }
 /*projects in portfolio*/
 #projects span{
@@ -47,4 +44,7 @@ color: black;
     line-height: 26px;
     font-weight: 400;
     background-color: rgb(248, 246, 246);
+}
+#sticky-footer .fa{
+    color: white;
 }
