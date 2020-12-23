@@ -3,6 +3,10 @@ body{
     background-image: url(../responsive-portfolio/images/christmas-dark.png);
 }
 /*projects in portfolio*/
+#projects .card{
+margin-bottom: 10px;
+min-height: 220px;
+}
 #projects span{
     padding: 1opx 20px 10px 20px;
 }
@@ -43,7 +47,11 @@ color: black;
     font-weight: 400;
     background-color: rgb(248, 246, 246);
 }
-
+#footer{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
 #footer .fa{
     color: white;
 }
