@@ -30,8 +30,5 @@
 ## Screenshots
 <<<<<<< HEAD
 <img src="..\responsive-portfolio\images\Index%-%Google%Chrome%12_23_2020%12_21_34%AM.png">
-=======
-<img src="responsive-portfolio\images\Index%-%Google%Chrome%12_23_2020%12_21_34%AM.png">
->>>>>>> 829484714636c90ffbdd3779456e7cac087479f7
 
 
