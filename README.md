@@ -27,4 +27,5 @@
 ## general information V
 *custom css
 *I used my own css sheet to add extra padding, margin, color, to my contact, card, and footer classes.
-<img src="C:\Users\fidel\desktop\coding-bootcamp\homework\responsive-portfolio\images\Index - Google Chrome 12_23_2020 12_21_34 AM.png">
+## Screenshots
+<img src="responsive-portfolio\images\contact1.png">
